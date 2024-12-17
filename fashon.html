@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/fashon.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+<!-- navbar Section -->
+<header class="text-white p-3">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow">
+    <div class="container">
+      <!-- Logo and Brand Name -->
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/blog-img.png" alt="Logo">
+        <span class="d-none d-lg-inline">Zigblog</span> 
+      </a>
+
+      <!-- Back Button for Desktop View -->
+      <a href="index.html" class="btn btn-outline-secondary d-none d-lg-inline me-3">
+        <i class="fas fa-arrow-left"></i> Back
+      </a>
+
+      <!-- Toggler for Mobile Menu -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Mobile View: Back, Login, and Register stacked vertically inside the toggled menu -->
+        <div class="d-lg-none w-100">
+          <a class="btn btn-purple w-100 text-white mt-2" href="./Login.html">Login</a>
+          <a class="btn btn-purple w-100 text-white mt-2" href="./Register.html">Register</a>
+          <a href="index.html" class="btn btn-outline-secondary w-100 mt-2">
+            <i class="fas fa-arrow-left"></i> Back
+          </a>
+        </div>
+
+        <!-- Desktop View: Login and Register Buttons -->
+        <ul class="navbar-nav ms-auto d-none d-lg-flex">
+          <li class="nav-item">
+            <a class="btn btn-purple ms-2 text-white" href="./Loin.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-purple ms-2 text-white" href="./Register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="hero-section d-flex align-items-center text-center text-white">
+  <div class="container">
+    <h1>Unveiling All the Latest Fashion Trends</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in hendrerit urna.</p>
+  </div>
+</section>
+<!-- Latest  Section -->
+<section class="Latest-posts py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="d-flex flex-column">
+          <h2 class="text-left mb-4 post-title">Latest News and Updates</h2>
+          <div class="img-container mb-3">
+            <img src="./assets/images/news.jpg" class="img-fluid post-image" alt="Featured Image">
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="badge bg-dark text-white me-3">FASHION</span>
+            <span class="text-muted me-3"><i class="far fa-calendar-alt"></i> NOV 22, 2024</span>
+           
+            <div class="d-flex align-items-center post-meta">
+              <span class="fw-bold">Puja</span>
+            </div>
+          </div>         
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- Latest Section -->
+        <div class="Latest-section mt-5">
+          <h5 class="Latest-title">FEATURED</h5>
+          <div class="position-relative">
+            <img src="./assets/images/fashon-img.png" alt="Featured Image" class="img-fluid">
+          </div>
+        </div>
+  
+        <!-- Latest News Section -->
+        <div class="latest-news mt-4">
+          <h5 class="news-title">LATEST NEWS</h5>
+          <div class="news-item">
+            <img src="./assets/images/fashon.jpg" alt="News 1">
+            <div>
+              <h6>LIISA COLLECTION</h6>
+              <p>By admin - Bathrobe</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="./assets/images/fashon.jpg" alt="News 2">
+            <div>
+              <h6>DEEP COLORS</h6>
+              <p>By Li Nang - Bathrobe</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="./assets/images/fashon-img.png" alt="News 3">
+            <div>
+              <h6>PLAY WITH SHAPES</h6>
+              <p>By Li Nang - Bathrobe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured cards Section -->
+<section class="featured-posts py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Featured Posts</h2>
+    <div class="row">
+      <!-- Post 1 -->
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://websitedemos.net/fashion-blog-04/wp-content/uploads/sites/1405/2023/10/Image-8-1.jpg" class="card-img-top" alt="Guide to Winter Clothes">
+          <div class="card-body">
+            <h5 class="card-title">Your Guide to Look Stunning in Winter Clothes</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <a href="#" class="read-more me-5">Read More<span class="ms-2"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Post 2 -->
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://websitedemos.net/fashion-blog-04/wp-content/uploads/sites/1405/2023/10/Image-7-2.jpg" class="card-img-top" alt="Sunglasses for 2023">
+          <div class="card-body">
+            <h5 class="card-title">Best Looking Sunglasses of 2023 based on your type</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <a href="#" class="read-more me-5">Read More<span class="ms-2"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Post 3 -->
+      <div class="col-md-4">
+        <div class="card border-0">
+          <img src="https://websitedemos.net/fashion-blog-04/wp-content/uploads/sites/1405/2023/10/Image-2-1.jpg" class="card-img-top" alt="Fall Clothes for Shopping">
+          <div class="card-body">
+            <h5 class="card-title">Fall Clothes to look for when shopping</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <a href="#" class="read-more me-5">Read More<span class="ms-2"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Popular Categories Section -->
+<section class="categories-section py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4">Popular Categories</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="category-item">
+          <i class="fas fa-tshirt fa-3x mb-3"></i>
+          <h5>Outfits</h5>
+          <p>Explore the latest outfit ideas and fashion inspirations.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="category-item">
+          <i class="fas fa-sun fa-3x mb-3"></i>
+          <h5>Accessories</h5>
+          <p>Get the perfect accessories to complement any look.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="category-item">
+          <i class="fas fa-shoe-prints fa-3x mb-3"></i>
+          <h5>Footwear</h5>
+          <p>Find the latest trends in shoes, boots, and more.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Newsletter Subscription Section -->
+<section class="newsletter-section py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4">Subscribe to Our Newsletter</h2>
+    <p class="mb-4">Stay updated with the latest fashion news and trends.</p>
+    <form class="newsletter-form d-flex justify-content-center">
+      <input type="email" class="form-control form-control-lg me-2" placeholder="Enter your email" required>
+      <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Section -->
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2024 Tech Blog. All Rights Reserved.</p>
+  </footer>
+<!-- Footer Section -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

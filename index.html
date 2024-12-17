@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/blog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="text-white p-3">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow" style="background-color: #fff;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/blog-img.png" alt="Logo" style="height: 40px; margin-right: 10px;">
+          <span class="d-none d-lg-inline">Zigblog</span>
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="d-lg-none w-100 mb-3">
+            <a class="btn btn-purple w-100 text-white mb-2" href="./Loin.html">Login</a>
+            <a class="btn btn-purple w-100 text-white mb-2" href="./Register.html">Register</a>
+          </div>
+          <ul class="navbar-nav ms-auto d-none d-lg-flex">
+            <li class="nav-item">
+              <a class="btn btn-purple ms-2 text-white" href="./Loin.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-purple ms-2 text-white" href="./Register.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main class="container mt-5 pt-5">
+    <div class="row">
+      <!-- Featured Section on the Left -->
+      <div class="col-lg-8 featured_section mb-5">
+         <!-- Featured Section -->
+         <section id="featured" class="mb-5">
+          <article class="featured-article p-4 rounded">
+            <h2 class="fw-bolder F_heading">Featured Article</h2>
+            <p class="F_text">Explore the latest tech innovations and trends in the world of programming and development.</p>
+            <button class="btn read-more-btn">Read More</button>
+            <p class="text-white mt-2">Date: <span>08-11-2024</span></p>
+          </article>
+        </section>
+
+        <!-- Latest Posts Section -->
+        <section id="latest">
+          <h2 class="fw-bold mb-4 text-center">Latest Post</h2>
+          <div class="row g-3">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <article class="card h-100 shadow-sm">
+                <div class="position-relative">
+                  <img src="https://images.unsplash.com/photo-1639729275509-1c5dc3748e77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y3J5cHRvfGVufDB8fDB8fHww" alt="Crypto News" class="img-fluid rounded-top">
+                  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-start p-3 rounded-top">
+                    <button class="btn btn-grad">Crypto</button>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between px-3 pt-2">
+                  <p class="text-muted">Date: <span>08-11-2024</span></p>
+                  <p class="text-muted">2 hours ago</p>
+                </div>
+                <div class="p-3">
+                  <h3 class="card-title">Latest Trends</h3>
+                  <p class="card-text">Explore the factors driving the cryptocurrency.</p>
+                  <a href="crypto-news.html" class="btn btn-read-more">Read More <span><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                </div>
+              </article>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <article class="card h-100 shadow-sm">
+                <div class="position-relative">
+                  <img src="https://plus.unsplash.com/premium_photo-1684820878202-52781d8e0ea9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8MA%3D%3D" alt="Sports News" class="img-fluid rounded-top">
+                  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-start p-3 rounded-top">
+                    <button class="btn btn-grad">Sports</button>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between px-3 pt-2">
+                  <p class="text-muted">Date: <span>08-11-2024</span></p>
+                  <p class="text-muted">2 hours ago</p>
+                </div>
+                <div class="p-3">
+                  <h3 class="card-title">Latest Trends</h3>
+                  <p class="card-text">Explore the factors driving the cryptocurrency.</p>
+                  <a href="sports.html" class="btn btn-read-more">Read More <span><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                </div>
+              </article>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <article class="card h-100 shadow-sm">
+                <div class="position-relative">
+                  <img src="https://media.istockphoto.com/id/1720313840/photo/full-size-photo-of-carefree-overjoyed-happy-woman-dance-motion-wear-lime-yellow-flared-outfit.webp?a=1&b=1&s=612x612&w=0&k=20&c=xzRCk1p5aielJXiB61ih1OIULolcXwRTJkmAiEZ22-A=" alt="Fashion News" class="img-fluid rounded-top">
+                  <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-start p-3 rounded-top">
+                    <button class="btn btn-grad">Fashion</button>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between px-3 pt-2">
+                  <p class="text-muted">Date: <span>08-11-2024</span></p>
+                  <p class="text-muted">2 hours ago</p>
+                </div>
+                <div class="p-3">
+                  <h3 class="card-title">Latest Trends</h3>
+                  <p class="card-text">Explore the factors driving the cryptocurrency.</p>
+                  <a href="./fashon.html" class="btn btn-read-more">Read More <span><i class="fa-solid fa-up-right-from-square"></i></span></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+
+  
+      <!-- Sidebar Section on the Right -->
+      <aside class="col-lg-4 F_subsection">
+        <section class="p-4 rounded mb-3 F_card">
+          <h4>Popular Posts</h4>
+          <ul class="list-unstyled">
+            <li><a href="post1.html">Post 1: Latest Trends in AI</a></li>
+            <li><a href="post2.html">Post 2: Cybersecurity in 2024</a></li>
+            <li><a href="post3.html">post 3: Computing 101</a></li>
+            <li><a href="post1.html">Post 4: Latest Trends in AI</a></li>
+            <li><a href="post2.html">Post 5: Cybersecurity in 2024</a></li>
+            <li><a href="post3.html">Post 6 Computing 101</a></li><li>
+              <a href="post1.html">Post 7: Latest Trends in AI</a></li>
+            <li><a href="post2.html">Post 8: Cybersecurity in 2024</a></li>
+            <li><a href="post3.html">Post 9: Computing 101</a></li>
+            <li><a href="post1.html">Post 10: Latest Trends in AI</a></li>
+            <li><a href="post2.html">Post 11: Cybersecurity in 2024</a></li>
+          </ul>
+        </section>
+        <section class="p-4 rounded F_card">
+          <h4>Categories</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">AI & Machine Learning</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">AI & Machine Learning</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+            <li><a href="#">Web Development</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2024 ZigBlog. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
